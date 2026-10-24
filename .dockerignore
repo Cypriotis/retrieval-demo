@@ -1,0 +1,14 @@
+.git
+.venv
+.python
+.uv-cache
+.pytest_cache
+__pycache__
+**/__pycache__
+data
+.env
+tests
+artifacts
+scripts
+samples
+PDF content

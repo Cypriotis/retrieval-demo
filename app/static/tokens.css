@@ -1,0 +1,4 @@
+/* Archival Terminal: shared semantic tokens. */
+:root{color-scheme:light;--paper:#eef0ec;--paper-alt:#e4e7e2;--ink:#1a1a1a;--ink-muted:#555b55;--rule:#b9bdb7;--accent:#2440d6;--accent-soft:#4fc3e8;--accent-alt:#f4a6c6;--signal-ok:#24753b;--error:#a12626;--frame:#0f3b2a;--mono:"IBM Plex Mono","Cascadia Mono",Consolas,"Liberation Mono",monospace;--sans:"Arial Black",Arial,Helvetica,sans-serif;--bg:var(--paper);--surface:var(--paper);--muted:var(--ink-muted);--line:var(--rule);--green:var(--accent);--mint:var(--paper-alt)}
+:root[data-theme="dark"]{color-scheme:dark;--paper:#111312;--paper-alt:#1d211e;--ink:#e6e8e4;--ink-muted:#aeb6ad;--rule:#51594f;--accent:#91a2ff;--signal-ok:#79d48f;--error:#ff9292}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--paper:#111312;--paper-alt:#1d211e;--ink:#e6e8e4;--ink-muted:#aeb6ad;--rule:#51594f;--accent:#91a2ff;--signal-ok:#79d48f;--error:#ff9292}}

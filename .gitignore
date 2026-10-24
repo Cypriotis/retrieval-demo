@@ -1,0 +1,23 @@
+.venv/
+.python/
+.uv-cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+data/
+artifacts/
+
+# Local PDF corpus
+/PDF content/
+
+# Optional development and demonstration materials
+/tests/
+/scripts/
+/samples/
+
+# Optional implementation documentation and host-Ollama deployment
+/FOCUS_MODE.md
+/COHERENT_PASSAGES.md
+/TREE_RAG.md
+/compose.host.yaml
